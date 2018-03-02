@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('BuildEcho') {
       steps {
-        git(branch: 'Master', url: 'https://github.com/Tooguesh/Portofolio.git')
+        git(branch: 'master', url: 'https://github.com/Tooguesh/Portofolio.git')
       }
     }
   }
